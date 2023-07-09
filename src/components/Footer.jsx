@@ -1,21 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function App() {
-    const date = document.querySelector("#date");
-    // set year
-    date.innerHTML = new Date().getFullYear();
-
-    // const date = new Date();
-    // const currentTime = date.getHours();
-
+function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
-
-        <p>&copy;
-            <span id="date"></span>
-            Stephen Adeniji. all rights reserved
-        </p>
-
-    )
+        <footer>
+            <p>Copyright ⓒ {currentYear} Stephen Adeniji</p>
+        </footer>
+    );
 }
 
-export default Footer
+export default Footer;
