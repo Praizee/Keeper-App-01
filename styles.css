@@ -39,7 +39,8 @@ footer {
 }
 
 footer p {
-  color: #ccc;
+  /* color: #ccc; */
+  color: #585757;
 }
 
 .note {
