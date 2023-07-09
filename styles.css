@@ -13,6 +13,10 @@ body {
   padding: 0 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #f5ba13;
   margin: auto -16px;
