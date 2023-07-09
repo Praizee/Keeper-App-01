@@ -1,11 +1,11 @@
 import React from "react";
 
-function Heading() {
+function Header() {
     return (
-        <div>
+        <header>
             <h1>Keeper</h1>
-        </div>
-    )
+        </header>
+    );
 }
 
-export default Heading
+export default Header;
