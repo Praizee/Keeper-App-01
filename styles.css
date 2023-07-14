@@ -10,6 +10,7 @@ html {
 
 body {
   background: #eee;
+  /* background: #e2e1e1; */
   padding: 0 16px;
 }
 
@@ -47,15 +48,17 @@ footer p {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
-  width: 240px;
+  padding: 13px;
+  /* padding: 10px; */
+  /* width: 240px; */
+  width: 260px;
   margin: 16px;
   float: left;
 }
 
 .note h1 {
   font-size: 1.1em;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .note p {
