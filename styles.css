@@ -27,7 +27,7 @@ header h1 {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -68,9 +68,12 @@ footer p {
   float: right;
   margin-right: 10px;
   /* color: #f5ba13; */
-  background: #f2f2f2;
+  background: #f8f4f4;
+  font-weight: 400;
+  border-radius: 5px;
   border: none;
-  width: 36px;
+  width: 63px;
+  /* padding: 2rem, 0.9rem, 0.5rem, 1rem; */
   height: 36px;
   cursor: pointer;
   outline: none;
