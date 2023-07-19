@@ -4,7 +4,7 @@
 
  Description: A mini clone (of sorts) of Google's notes app (Google Keep) made with React.js
 
- (From Angela Yu's Web Development Udemy Course)
+ (From <b>Angela Yu's</b> Web Development Udemy Course)
 
 ![image](https://github.com/Praizee/Keeper-App-01/assets/89282358/70abbb7e-5a60-4323-b8b7-d96d29f99d3c)
 
