@@ -44,6 +44,7 @@ footer p {
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   width: 240px;
+  /* width: auto; */
   margin: 16px;
   float: left;
 }
@@ -66,7 +67,8 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  /* color: #f5ba13; */
+  background: #f2f2f2;
   border: none;
   width: 36px;
   height: 36px;
@@ -77,12 +79,22 @@ footer p {
 form {
   position: relative;
   width: 480px;
+  /* width: auto; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
+
+/* @media only screen and (max-width: 570px) {
+  form {
+    width: 480px;
+    margin: auto;
+  }
+} */
 
 form input,
 form textarea {
