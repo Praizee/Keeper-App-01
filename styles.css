@@ -57,6 +57,10 @@ footer a:hover {
   float: left;
 }
 
+.Fab:hover {
+  color: #f5ba13;
+}
+
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
