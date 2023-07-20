@@ -45,10 +45,10 @@ function CreateArea(props) {
           placeholder="Take a note..."
           rows="3"
         />
-        <button onClick={submitNote}>
+        <Fab onClick={submitNote} className="Fab">
           {/* <AddCircleOutlineIcon /> */}
           <AddIcon />
-        </button>
+        </Fab>
       </form>
     </div>
   );
