@@ -13,6 +13,10 @@ body {
   padding: 0 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #f5ba13;
   margin: auto -16px;
@@ -27,15 +31,20 @@ header h1 {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   text-align: center;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
 }
 
-footer p {
-  color: #ccc;
+footer p,
+a {
+  color: #585757;
+}
+
+footer a:hover {
+  color: #f5ba13;
 }
 
 .note {
@@ -44,16 +53,13 @@ footer p {
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   width: 240px;
-  /* width: auto; */
   margin: 16px;
   float: left;
 }
 
 .note h1 {
   font-size: 1.1em;
-  /* margin-bottom: 6px; */
-  /* added */
-  margin-bottom: 0.5rem;
+  margin-bottom: 6px;
 }
 
 .note p {
@@ -67,24 +73,17 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  /* color: #f5ba13; */
-  background: #f8f4f4;
-  font-weight: 400;
-  border-radius: 5px;
+  color: #f5ba13;
   border: none;
-  width: 63px;
-  /* padding: 2rem, 0.9rem, 0.5rem, 1rem; */
+  width: 36px;
   height: 36px;
   cursor: pointer;
   outline: none;
 }
 
-form {
+form.create-note {
   position: relative;
   width: 480px;
-  /* width: auto; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
@@ -92,15 +91,8 @@ form {
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 
-/* @media only screen and (max-width: 570px) {
-  form {
-    width: 480px;
-    margin: auto;
-  }
-} */
-
-form input,
-form textarea {
+form.create-note input,
+form.create-note textarea {
   width: 100%;
   border: none;
   padding: 4px;
@@ -108,11 +100,9 @@ form textarea {
   font-size: 1.2em;
   font-family: inherit;
   resize: none;
-  /* added */
-  margin-bottom: 0.5rem;
 }
 
-form button {
+form.create-note button {
   position: absolute;
   right: 18px;
   bottom: -18px;
@@ -125,6 +115,4 @@ form button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
-  font-size: 0.9rem;
-  /* padding: 0.7rem; */
 }
