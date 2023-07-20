@@ -123,3 +123,7 @@ form.create-note button {
   cursor: pointer;
   outline: none;
 }
+
+input::placeholder {
+  font-weight: bold;
+}
